@@ -4,7 +4,7 @@ A compact bilingual academic homepage with a separate project page. Static HTML,
 
 ## Files / 文件
 
-- `index.html`: education and five published papers, with verified original publication links.
+- `index.html`: education and five published papers, with full author lists, year-labeled journal impact factors and verified original publication links.
 - `projects.html`: research projects, engineering contributions, repository links and technical skills.
 - `styles.css`: responsive editorial layout, keyboard focus, reduced-motion and print styles.
 - `script.js`: Chinese/English display, page-specific metadata and project filters.
@@ -30,6 +30,18 @@ Update default Chinese content in each HTML page and matching Chinese/English ke
 新增或修改项目时，同时维护 HTML 默认中文内容与脚本中的双语文本；若新增项目，更新筛选计数。技术栈与项目详情均可直接编辑。
 
 ## Content and design provenance / 来源
+
+### Authors and journal impact factors / 作者与影响因子
+
+All five full author lists preserve publication order. English-paper authors were verified through the publishers' Crossref deposits; the Chinese tracking paper's authors were verified on its [original journal page](https://signal.ejournal.org.cn/cn/article/doi/10.16798/j.issn.1003-0530.2019.05.024). Nengbo Zhang / 张能波 is highlighted without changing author order. The Chinese journal's published English names are standardized to given-name–surname order in English display.
+
+- IEEE Transactions on Robotics: **11.1 (2025 JIF)**, [IEEE official September 2026 title list, page 3](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf#page=3).
+- IEEE Internet of Things Journal: **8.7 (2025 JIF)**, [the same IEEE list, page 1](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf#page=1).
+- Applied Intelligence: **3.5 (2025 JIF)**, [Springer official journal metrics](https://link.springer.com/journal/10489).
+- Chinese 《信号处理》 (ISSN 1003-0530): **JIF unverified**, not zero. Do not substitute the impact factor of Elsevier's different journal *Signal Processing* (ISSN 0165-1684), or domestic composite/comprehensive metrics.
+- ICSP 2018 conference paper: **not applicable**, because it is not a journal publication.
+
+Checked on 2026-10-02. The IEEE list explicitly identifies the 2025 JCR data released in June 2026. These are current verified journal-level metrics, not publication-year impact factors or paper-level quality scores. Every numeric value links to its official source on the homepage. Chinese and English display use the same figures and years.
 
 Education and project facts come from the owner's supplied CV. Five published papers were verified against publisher/journal metadata. MoCom is the latest publication: Nengbo Zhang, Hann Woei Ho and Ye Zhou, “MoCom: Motion-Based Inter-MAV Visual Communication Using Event Vision and Spiking Neural Networks,” IEEE Transactions on Robotics, 42: 1680–1694, 2026, [DOI](https://doi.org/10.1109/TRO.2026.3677077). Its title, author order, year, volume and pages were checked against [IEEE's Crossref deposit](https://api.crossref.org/works/10.1109/TRO.2026.3677077); only the verified publication year is displayed, not the DOI registration date. Other submission-only research is not labeled as published. The USM entry records its July 2024 start without inferring a graduation date or present enrollment status. MobiAct and MAVR-Net point to the owner's GitHub forks and retain that attribution. No phone number, private contact data or invented performance claims are published.
 
