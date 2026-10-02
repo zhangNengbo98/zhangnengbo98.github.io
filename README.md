@@ -4,7 +4,7 @@ A compact bilingual academic homepage with a separate project page. Static HTML,
 
 ## Files / 文件
 
-- `index.html`: education and four published papers, with verified original publication links.
+- `index.html`: education and five published papers, with verified original publication links.
 - `projects.html`: research projects, engineering contributions, repository links and technical skills.
 - `styles.css`: responsive editorial layout, keyboard focus, reduced-motion and print styles.
 - `script.js`: Chinese/English display, page-specific metadata and project filters.
@@ -31,7 +31,7 @@ Update default Chinese content in each HTML page and matching Chinese/English ke
 
 ## Content and design provenance / 来源
 
-Education and project facts come from the owner's supplied CV. Four published papers were verified against publisher/journal metadata. Submission-only research is kept on the project page and is not labeled as published. The USM entry records its July 2024 start without inferring a graduation date or present enrollment status. MobiAct and MAVR-Net point to the owner's GitHub forks and retain that attribution. No phone number, private contact data or invented performance claims are published.
+Education and project facts come from the owner's supplied CV. Five published papers were verified against publisher/journal metadata. MoCom is the latest publication: Nengbo Zhang, Hann Woei Ho and Ye Zhou, “MoCom: Motion-Based Inter-MAV Visual Communication Using Event Vision and Spiking Neural Networks,” IEEE Transactions on Robotics, 42: 1680–1694, 2026, [DOI](https://doi.org/10.1109/TRO.2026.3677077). Its title, author order, year, volume and pages were checked against [IEEE's Crossref deposit](https://api.crossref.org/works/10.1109/TRO.2026.3677077); only the verified publication year is displayed, not the DOI registration date. Other submission-only research is not labeled as published. The USM entry records its July 2024 start without inferring a graduation date or present enrollment status. MobiAct and MAVR-Net point to the owner's GitHub forks and retain that attribution. No phone number, private contact data or invented performance claims are published.
 
 The design follows PaperBanana's Retriever → Planner → Stylist → Visualizer → Critic sequence using the native Codex HTML/CSS rendering path. Abstract CSS compositions are decorative, not research data, experimental results or scientific method diagrams. No upstream image model or external rendering API is used.
 
