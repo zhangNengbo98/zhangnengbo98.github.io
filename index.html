@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="description" content="张能波的个人项目与技术：计算机视觉、智能感知、脉冲神经网络与 GPU 模型部署。">
+  <link rel="canonical" href="https://zhangnengbo98.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zhangnengbo98.github.io/">
+  <meta property="og:title" content="张能波 Nengbo Zhang — Projects & Technology">
+  <meta property="og:description" content="计算机视觉、智能感知与 GPU 部署：从研究问题到实际系统。">
+  <meta property="og:locale" content="zh_CN">
+  <title>张能波 Nengbo Zhang — Projects & Technology</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">跳转到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="张能波，返回首页" data-i18n-aria="brandAria">
+      <span class="brand-mark" aria-hidden="true">nz.</span>
+      <span class="brand-name">NENGBO ZHANG<span data-i18n="brandSubtitle">个人项目 · 技术实践</span></span>
+    </a>
+    <nav class="main-nav" aria-label="主要导航" data-i18n-aria="navigation">
+      <a href="#projects" data-i18n="navProjects">项目</a>
+      <a href="#technology" data-i18n="navTechnology">技术</a>
+      <a class="nav-github" href="https://github.com/zhangNengbo98" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="language-toggle" type="button" aria-label="Switch to English" id="language-toggle"><span aria-hidden="true">文 / A</span><span id="language-label">EN</span></button>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-cross" aria-hidden="true">+</span> COMPUTER VISION & INTELLIGENT SENSING</p>
+        <h1 id="hero-title"><span data-i18n="heroLine1">让感知算法，</span><span class="hero-title-accent" data-i18n="heroLine2">走进真实世界。</span></h1>
+        <p class="hero-name"><strong data-i18n="name">张能波</strong><span>Nengbo Zhang</span></p>
+        <p class="hero-description" data-i18n="heroDescription">探索视觉与无线信号中的信息，以深度学习构建感知能力，并将模型转化为可运行的工程系统。</p>
+        <a class="button-primary" href="#projects"><span data-i18n="explore">探索我的项目</span><span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-topline"><span>RESEARCH → ENGINEERING</span><span>NZ / PORTFOLIO</span></div>
+        <div class="signal-composition">
+          <div class="signal-orbit orbit-one"></div><div class="signal-orbit orbit-two"></div><div class="signal-orbit orbit-three"></div>
+          <div class="signal-axis axis-x"></div><div class="signal-axis axis-y"></div>
+          <span class="signal-dot dot-one"></span><span class="signal-dot dot-two"></span><span class="signal-dot dot-three"></span>
+          <div class="signal-core"><span>nz.</span></div>
+          <div class="visual-coordinates coordinate-one">INPUT</div><div class="visual-coordinates coordinate-two">INFERENCE</div>
+          <div class="event-cluster"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="visual-bottomline"><span>FROM SIGNAL<br>TO SYSTEM.</span><span class="visual-plus">+</span></div>
+      </div>
+      <div class="focus-strip">
+        <div><span class="strip-index">01</span><span data-i18n="focusVision">计算机视觉</span><small>COMPUTER VISION</small></div>
+        <div><span class="strip-index">02</span><span data-i18n="focusSensing">智能感知</span><small>INTELLIGENT SENSING</small></div>
+        <div><span class="strip-index">03</span><span data-i18n="focusDeployment">模型部署</span><small>MODEL DEPLOYMENT</small></div>
+      </div>
+    </section>
+
+    <section class="projects section-shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-i18n="selectedWork">SELECTED WORK / 精选项目</p><h2 id="projects-title" data-i18n="projectsTitle">从研究问题，到实际系统。</h2></div>
+        <p class="section-intro" data-i18n="projectsIntro">聚焦算法方法、个人贡献与工程实践，呈现四个不同感知场景中的技术探索。</p>
+      </div>
+      <div class="project-toolbar">
+        <div class="filters" role="group" aria-label="按项目类型筛选" data-i18n-aria="filterAria">
+          <button type="button" class="filter active" data-filter="all" aria-pressed="true"><span data-i18n="filterAll">全部</span><small>04</small></button>
+          <button type="button" class="filter" data-filter="research" aria-pressed="false"><span data-i18n="filterResearch">研究</span><small>03</small></button>
+          <button type="button" class="filter" data-filter="engineering" aria-pressed="false"><span data-i18n="filterEngineering">工程</span><small>01</small></button>
+        </div>
+        <span class="toolbar-note" data-i18n="workNote">RESEARCH × IMPLEMENTATION</span>
+      </div>
+      <p class="visually-hidden" id="filter-status" role="status" aria-live="polite"></p>
+      <div class="project-grid">
+        <article class="project-card project-featured" data-category="engineering">
+          <div class="project-meta"><span><span class="project-number">01</span><span data-i18n="engineeringLabel">工程实践</span></span><time>2022</time></div>
+          <div class="project-symbol metric-symbol" aria-hidden="true"><i></i><i></i><i></i><span></span></div>
+          <p class="project-kicker">DEEP METRIC LEARNING</p>
+          <h3 data-i18n="oreTitle">深度度量学习<br>矿石分选系统</h3>
+          <p class="project-description" data-i18n="oreDescription">从样本不足的矿物识别问题出发，将 Triplet Network 与 GPU 部署结合，推动分选算法的工程落地。</p>
+          <ul class="tags" aria-label="项目技术" data-i18n-aria="projectTags"><li>Triplet Network</li><li>TensorRT</li><li>ONNX</li><li>C++ / CUDA</li></ul>
+          <details class="project-details"><summary><span data-i18n="methodContribution">方法与贡献</span><span class="detail-plus" aria-hidden="true">+</span></summary><div class="detail-content"><p data-i18n="oreDetail1">负责分选框架搭建与更新，针对业务需求选择合适的深度学习方法。</p><p data-i18n="oreDetail2">使用 Triplet Network 应对特殊矿物样本不足；进行 PyTorch 模型格式转换、TensorRT 部署及 NVIDIA 硬件优化。</p><p data-i18n="oreDetail3">替换原有 Caffe 模型，维护 GPU 服务器，并持续迭代分选模块。</p></div></details>
+        </article>
+        <article class="project-card" data-category="research">
+          <div class="project-meta"><span><span class="project-number">02</span><span data-i18n="researchLabel">研究探索</span></span><span>MoCom</span></div>
+          <div class="project-symbol event-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <p class="project-kicker">EVENT VISION × SNN</p>
+          <h3 data-i18n="mocomTitle">事件视觉与<br>微型飞行器通信</h3>
+          <p class="project-description" data-i18n="mocomDescription">围绕微型飞行器（MAV）的运动视觉通信，探索事件视觉与脉冲神经网络的结合。</p>
+          <ul class="tags" aria-label="项目技术" data-i18n-aria="projectTags"><li>Event Vision</li><li>Spiking Neural Networks</li><li>MAV</li></ul>
+          <details class="project-details"><summary><span data-i18n="methodContribution">方法与贡献</span><span class="detail-plus" aria-hidden="true">+</span></summary><div class="detail-content"><p data-i18n="mocomDetail1">MoCom 的研究主题为基于运动的微型飞行器间视觉通信。</p><p data-i18n="mocomDetail2">技术路径结合事件视觉与脉冲神经网络，关联研究兴趣包括 MAV 动作识别与事件视觉目标跟踪。</p></div></details>
+        </article>
+        <article class="project-card" data-category="research">
+          <div class="project-meta"><span><span class="project-number">03</span><span data-i18n="researchLabel">研究探索</span></span><time>2020</time></div>
+          <div class="project-symbol wifi-symbol" aria-hidden="true"><i></i><i></i><i></i><span></span></div>
+          <p class="project-kicker">WIRELESS SENSING / WI-PHRASE</p>
+          <h3 data-i18n="wifiTitle">WiFi 信号<br>手语短语识别</h3>
+          <p class="project-description" data-i18n="wifiDescription">采集与处理 WiFi CSI 信号，通过深度神经网络学习手语短语中的时序信息。</p>
+          <ul class="tags" aria-label="项目技术" data-i18n-aria="projectTags"><li>WiFi CSI</li><li>Deep Learning</li><li>Signal Processing</li></ul>
+          <details class="project-details"><summary><span data-i18n="methodContribution">方法与贡献</span><span class="detail-plus" aria-hidden="true">+</span></summary><div class="detail-content"><p data-i18n="wifiDetail1">参与 CSI 数据采集与预处理、神经网络训练调优、实验分析及论文写作。</p><p data-i18n="wifiDetail2">相关成果 Wi-Phrase: Deep Residual-MultiHead Model for WiFi Sign Language Phrase Recognition 发表于 IEEE Internet of Things Journal（2022）。</p></div></details>
+        </article>
+        <article class="project-card" data-category="research">
+          <div class="project-meta"><span><span class="project-number">04</span><span data-i18n="researchLabel">研究探索</span></span><time>2019</time></div>
+          <div class="project-symbol tracking-symbol" aria-hidden="true"><i></i><i></i><span></span></div>
+          <p class="project-kicker">VISUAL OBJECT TRACKING</p>
+          <h3 data-i18n="trackingTitle">多特征融合<br>视觉目标跟踪</h3>
+          <p class="project-description" data-i18n="trackingDescription">将深度特征、HOG 与稀疏光流统一到跟踪框架中，兼顾运动描述与 GPU 实时实现。</p>
+          <ul class="tags" aria-label="项目技术" data-i18n-aria="projectTags"><li>VGG</li><li>HOG</li><li>Optical Flow</li><li>GPU</li></ul>
+          <details class="project-details"><summary><span data-i18n="methodContribution">方法与贡献</span><span class="detail-plus" aria-hidden="true">+</span></summary><div class="detail-content"><p data-i18n="trackingDetail1">引入稀疏光流作为目标特征描述，融合 VGG 网络特征、HOG 特征与运动信息。</p><p data-i18n="trackingDetail2">优化特征组合与 GPU 跟踪实现；相关研究发表于《信号处理》（2019）。</p></div></details>
+        </article>
+      </div>
+      <div class="code-links">
+        <p data-i18n="relatedCode">相关研究项目仓库</p>
+        <a href="https://github.com/zhangNengbo98/MAVR-Net" target="_blank" rel="noopener noreferrer"><span><strong>MAVR-Net</strong><small data-i18n="mavrNote">多视角 MAV 动作识别 · GitHub Fork</small></span><span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/zhangNengbo98/MobiAct" target="_blank" rel="noopener noreferrer"><span><strong>MobiAct</strong><small data-i18n="mobiactNote">轻量化 MAV 动作识别 · GitHub Fork</small></span><span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="technology" id="technology" aria-labelledby="technology-title">
+      <div class="section-shell technology-inner">
+        <div class="technology-heading"><p class="eyebrow" data-i18n="toolkitLabel">TECHNICAL TOOLKIT / 技术栈</p><h2 id="technology-title"><span data-i18n="techLine1">理解信号。</span><span data-i18n="techLine2">构建模型。</span><span class="muted-title" data-i18n="techLine3">落地系统。</span></h2><p data-i18n="techIntro">从研究方法到工程实现，关注模型、数据与运行环境之间的完整链路。</p></div>
+        <div class="skill-rows">
+          <div class="skill-row"><span class="skill-index">01 / PERCEPTION</span><h3 data-i18n="skillPerception">视觉与智能感知</h3><p data-i18n="perceptionDescription">事件视觉、目标跟踪、无线信号感知与 MAV 动作识别。</p><ul class="skill-tags"><li>Computer Vision</li><li>Event Camera</li><li>WiFi CSI</li><li>OpenCV</li></ul></div>
+          <div class="skill-row"><span class="skill-index">02 / LEARNING</span><h3 data-i18n="skillLearning">深度学习与建模</h3><p data-i18n="learningDescription">神经网络训练与实验分析，度量学习与脉冲神经网络。</p><ul class="skill-tags"><li>Python</li><li>PyTorch</li><li>TensorFlow</li><li>MATLAB</li><li>SNN</li></ul></div>
+          <div class="skill-row"><span class="skill-index">03 / ENGINEERING</span><h3 data-i18n="skillEngineering">部署与工程实现</h3><p data-i18n="engineeringDescription">模型格式转换、GPU 推理优化与 C++ 算法集成。</p><ul class="skill-tags"><li>C++</li><li>CUDA</li><li>TensorRT</li><li>ONNX</li><li>CMake</li></ul></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <div class="footer-top"><div><p class="eyebrow">KEEP EXPLORING.</p><h2 data-i18n="footerTitle">项目与技术，持续打磨。</h2></div><a class="footer-github" href="https://github.com/zhangNengbo98" target="_blank" rel="noopener noreferrer"><span data-i18n="visitGithub">在 GitHub 上查看</span><span aria-hidden="true">↗</span></a></div>
+    <div class="footer-bottom"><span>© <span id="copyright-year">2026</span> Nengbo Zhang</span><span data-i18n="footerNote">专注感知、学习与工程实践。</span><a href="#top" data-i18n="backToTop">回到顶部 ↑</a></div>
+  </footer>
+</body>
+</html>
