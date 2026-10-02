@@ -56,6 +56,11 @@ ul,ol{padding:0;margin:0;list-style:none}
 .publication-list h3 a:hover{text-decoration:underline;text-underline-offset:3px;color:var(--accent)}
 .paper-arrow{font-size:11px;color:var(--accent);white-space:nowrap}
 .publication-venue{font-size:11px;color:var(--muted);line-height:1.7;margin-top:5px}
+.publication-authors{font-size:11px;color:var(--muted);line-height:1.7;margin-top:5px;overflow-wrap:anywhere}
+.publication-authors strong{font-weight:650;color:var(--ink)}
+.impact-link{text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.impact-link:hover{color:var(--accent);text-decoration-color:currentColor}
+.publication-note{font-size:10px;color:var(--muted);line-height:1.8;padding-top:12px;border-top:1px solid var(--line)}
 .projects{padding-top:43px;padding-bottom:58px}
 .section-heading{display:flex;align-items:end;justify-content:space-between;gap:40px}
 .section-heading h1{font-size:33px;font-weight:500;letter-spacing:-.8px;line-height:1.5;margin-top:11px}
